@@ -1,0 +1,15 @@
+field,description
+ticket_id,Unique support ticket identifier
+opened_date,Date the ticket was opened
+resolved_date,Date/time the ticket was resolved
+department,Business department requesting support
+location,Employee/work location
+category,Type of IT issue
+priority,Ticket urgency level
+technician,Assigned support technician
+status,Current ticket status
+sla_target_hours,Target resolution time based on priority
+resolution_hours,Actual time to resolve the ticket
+sla_met,Whether the ticket met its SLA target
+satisfaction_score,Post-resolution satisfaction score from 1 to 5
+issue_summary,Short description of the issue
