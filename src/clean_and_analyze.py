@@ -15,7 +15,7 @@ for col in ["department", "location", "category", "priority", "technician", "sta
 df["opened_month"] = df["opened_date"].dt.to_period("M").astype(str)
 df["is_closed"] = df["status"].isin(["Closed", "Resolved"])
 df["is_backlog"] = ~df["is_closed"]
-df["sla_met_flag"] = df["sla_met"].map({True: 1, False: 0})
+df["sla_met_flag"] = df["sla_met"].map({True: 1, False: 0}).astype("Int64")
 
 df.to_csv(OUT, index=False)
 
