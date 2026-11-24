@@ -2,6 +2,14 @@
 
 A portfolio project that analyzes 5,000 synthetic IT help-desk tickets using **Python, Java, R, SQL, PostgreSQL, and Power BI**.
 
+
+## Live Interactive Dashboard
+
+[Launch Interactive Dashboard](https://qahir-ahmadi.github.io/IT-Service-Analytics-Dashboard/interactive_dashboard.html)
+
+Explore 5,000 IT support tickets through interactive charts, KPI cards, and dynamic filters. No installation or login required.
+
+
 ## Project Goal
 
 The goal is to simulate a real IT service desk and answer business questions about:
