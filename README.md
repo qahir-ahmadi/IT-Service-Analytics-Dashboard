@@ -40,7 +40,7 @@ SQL is used to store and analyze ticket data using business-focused queries.
 Power BI is used for the final interactive dashboard.
 
 ## Project Structure
-
+```text
 IT-Service-Analytics-Dashboard/
 │
 ├── data/
@@ -78,7 +78,7 @@ IT-Service-Analytics-Dashboard/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ## Recommended Run Order
 
 ### 1. Python
