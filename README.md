@@ -41,32 +41,43 @@ Power BI is used for the final interactive dashboard.
 
 ## Project Structure
 
-```text
-it_service_analytics_dashboard/
+IT-Service-Analytics-Dashboard/
+│
 ├── data/
 │   ├── raw/
 │   │   └── it_tickets_raw.csv
 │   └── processed/
 │       ├── it_tickets_clean.csv
 │       └── monthly_kpis.csv
-├── java/
-│   └── TicketAnalyzer.java
-├── r/
-│   └── ticket_analysis.R
-├── src/
-│   └── clean_and_analyze.py
-├── sql/
-│   ├── 01_create_table.sql
-│   └── 02_analysis_queries.sql
+│
 ├── docs/
+│   ├── interactive_dashboard.html
+│   ├── dashboard_preview.png
 │   ├── data_dictionary.csv
 │   ├── power_bi_dashboard_plan.md
 │   └── resume_bullets.md
+│
+├── java/
+│   └── TicketAnalyzer.java
+│
+├── r/
+│   ├── ticket_analysis.R
+│   └── output/
+│
+├── sql/
+│   ├── 01_create_table.sql
+│   └── 02_analysis_queries.sql
+│
+├── src/
+│   ├── clean_and_analyze.py
+│   └── interactive_dashboard.py
+│
 ├── powerbi/
-├── requirements.txt
+│   └── IT_Service_Analytics_Dashboard.pbix
+│
 ├── .gitignore
+├── requirements.txt
 └── README.md
-```
 
 ## Recommended Run Order
 
